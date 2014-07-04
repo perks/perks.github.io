@@ -1,8 +1,3 @@
-/*
-	Aerial 1.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 // Skel.
 	skel.init({
@@ -17,7 +12,7 @@
 	});
 
 // Events (JS).
-	
+
 	// Remove "loading" class once the page has fully loaded.
 		window.onload = function() {
 			document.body.className = '';
@@ -34,11 +29,6 @@
 		}
 
 /*
-
-// Events (jQuery).
-// Aerial doesn't need jQuery, but if you're going to use it anyway remove the
-// block of JS events above and use the jQuery-based ones below instead.
-
 	$(window)
 
 		// Remove "loading" class once the page has fully loaded.
